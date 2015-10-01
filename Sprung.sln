@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprung", "ToCSharp\Sprung.csproj", "{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprungTests", "ToCSharpTests\SprungTests.csproj", "{76428B54-E4B1-4D16-B9A7-1A9D5416FB81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801} = {B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0523738-4D4D-4B4F-8BA2-9DA4E33E5801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76428B54-E4B1-4D16-B9A7-1A9D5416FB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76428B54-E4B1-4D16-B9A7-1A9D5416FB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76428B54-E4B1-4D16-B9A7-1A9D5416FB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76428B54-E4B1-4D16-B9A7-1A9D5416FB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
